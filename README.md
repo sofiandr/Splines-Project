@@ -5,7 +5,7 @@ Description of every .m file here each one creating one or more figures.
 There are comments inside each script about explaing how the computation method is being used and about parameters/ comments that need to be changed if you want to plot something else.
 
 # Figure 1
-## histograms.m
+## hypnograms.m
 
 Just a simple subplot of the hypnograms to take a brief look for the sessions you want to run the analysis  for without having to nsearch and check each one of those manually.
 
