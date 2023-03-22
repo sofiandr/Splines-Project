@@ -4,6 +4,8 @@ Description of every .m file here each one creating one or more figures.
 
 There are comments inside each script about explaing how the computation method is being used and about parameters/ comments that need to be changed if you want to plot something else.
 
+Note: the Rep also contains the hyp .m files for each mouse with the information of the sessions
+
 # Figure 1
 ## hypnograms.m
 
