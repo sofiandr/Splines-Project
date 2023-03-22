@@ -71,7 +71,7 @@ ________________________________________________________________________________
 
 
 # Figure 8
-## 
+## splinesPower_allDur.m
 
 After finding the splines power for every (for example REM) stage of all sessions, it find its average and plots that on its duration as a scatter plot for each session on top of the other.
 For that we used the spectrogram to find the power and then used the indexes of frequencies between 110-160 Hz.
@@ -86,7 +86,7 @@ Simply save png files of the Splines Power on Duration for each session (for fur
 ![saveeachsession](https://user-images.githubusercontent.com/117298723/226769323-d16daefc-c003-4600-8590-790b7d759bce.png)
 
 # FIgure 10
-##
+## averageforspecificbins.m
 
 This on is the Figure 8 but also plots the average for the following specific bins of duration: 10-20 20-30 30-40 40-50 50-60 60-80 80-100 100-120 120-140 140-180 180-220 220-260 260-300 with error bars 
 (it can plot just the average or the average on top of the single points - it can be commented in or out)
@@ -94,7 +94,7 @@ This on is the Figure 8 but also plots the average for the following specific bi
 ![averagesplinePower_forspecifcDurationBins](https://user-images.githubusercontent.com/117298723/226769313-ca7d8866-1b77-4307-9344-93b9809f603d.png)
 
 # Figure 11
-## 
+## splinesPower_all_onTIME.m
 
 As Figure 8 but plots the Average Spline Power on time -not on duration- for all sessions. Lights on on actual time in the background.
 
@@ -105,7 +105,7 @@ It can be also plotted with lines not scatter:
 Note: all the scatter plots above can be plottes as a single line by just changing the '*' to '-*' on the final plot at the end of the code insite the for loop or at the very end of the script.
 
 # Figure 12 & Figure 13
-##
+## averageSplinePowerNEW.m
 
 Plots the Average Spline Power per Hour for ALL sessions wth error bars for actual times 0-24 or zt time in the same way it was explained in Figures 6 & 7
 
