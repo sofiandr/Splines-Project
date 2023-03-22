@@ -109,6 +109,8 @@ Note: all the scatter plots above can be plottes as a single line by just changi
 
 Plots the Average Spline Power per Hour for ALL sessions wth error bars for actual times 0-24 or zt time in the same way it was explained in Figures 6 & 7
 
+![averagesplnepower](https://user-images.githubusercontent.com/117298723/226800092-01f598a4-2701-4d0b-8410-d0166217c182.png)
+
 
 
 
@@ -122,3 +124,12 @@ Regarding the 2 averaging scripts before, also being concluded in this Repositor
 
 In those new average figures I store all the events in just one 1-D array and with the help of 'find' I create the bins. for example find (times>0 & times<3600) so I get all the INDEXES of the times of the 1st hour and I apply this indexes in the array that containt the durations and then find average, std, error and plotting.
 
+This is what the old scripts produced:
+
+## average_AND_all.m
+![oldaverage](https://user-images.githubusercontent.com/117298723/226801087-82b2d708-46cc-4292-b534-8a35e2217d6a.png)
+
+## average_of_spec_stage.m
+![oldaveragetotaldur](https://user-images.githubusercontent.com/117298723/226801088-e699c8ea-01f0-4934-a0e6-1513d187b5b4.png)
+
+As mentioned above, the averaging differentiates based on the real time or actual hours bins but in general stays the same
